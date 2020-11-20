@@ -198,6 +198,8 @@ public class Asteroids : MonoBehaviour
             a.gameObject.GetComponent<Asteroid>().speed = Random.Range(AsteroidMinSpeed, AsteroidMaxSpeed);
             a.SetActive(true);
         }
+        GodMode = true;
+        StartCoroutine(GodModeAnimation());
     }
 
     // Создание двух астероидов при попадании

@@ -339,16 +339,16 @@ MonoBehaviour:
   MaxRotationSpeed: 360
   MaxSpeed: 1000
   Acceleration: 500
-  ufoMinTimeout: 20
-  ufoMaxTimeout: 40
-  BulletTeleport: 1
+  ufoMinTimeout: 10
+  ufoMaxTimeout: 20
+  BulletTeleport: 0
   UFOTeleport: 1
-  LargeAsteroidSize: 150
-  MediumAsteroidSize: 100
-  SmallAsteroidSize: 70
-  AsteroidMaxSpeed: 500
+  LargeAsteroidSize: 120
+  MediumAsteroidSize: 90
+  SmallAsteroidSize: 60
+  AsteroidMaxSpeed: 300
   AsteroidMinSpeed: 50
-  ShotOnlyOnClick: 1
+  ShotOnlyOnClick: 0
   BulletSpeed: 1500
   PlayerShotSpeed: 3
   ufoMinShotTimeout: 2
